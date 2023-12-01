@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    max-width: 1024px;
+    margin: auto;
+    background-color: blanchedalmond;  
+    font-family: 'Pridi', serif;}
+
+header {
+    background-color: rgb(76,53,52) ;
+    min-height: 70px;
+    max-width: 1024px; }
+
+img {
+    width:100%;
+    object-fit: cover;}
+
+nav {
+    background-color: #dca07b;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;}
+    
+    
+.button-group {
+    display: flex;
+    gap: 10px;
+    /* align-items: center; */
+    color:  #4c3534;}
+
+
+.prev {
+    font-size: 40px;}
+/* nav > * {
+    color: blue;
+    display: inline-block;
+    background-color: aliceblue;
+    padding: 10px 16px;
+    } */
+
+.button-group button {
+    border: solid 1px grey ;
+    border-radius: 9999px;}   
+
+.welcome {
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(238, 201, 156);
+    /* background-color: #cdbbaf; */
+    margin-top: 60px;}
+
+.select-header {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 12px;}
+
+.items-row {
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;}
+
+.top-up-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;}
+
+.top-up-button img {
+    width: 40px;}
+
+/* .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap
+} */
+
+.button-group > img {
+    width: 40px;
+    align-self: center;}
+
+.item img {
+    height: 90px;
+    width: fit-content;
+    /* border-radius: 50%; */}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 9999px;
+    box-shadow: 9px 7px 16px -3px rgba(200,174,156,1);
+    -webkit-box-shadow: 9px 7px 16px -3px rgba(200,174,156,1);
+    -moz-box-shadow: 9px 7px 16px -3px rgba(200,174,156,1);
+    width: 120px;
+    height: 120px;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;}
+
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: blanchedalmond;   
+    color:  rgb(76,53,52);
+}
